@@ -1,4 +1,10 @@
-# Unsupervised Traffic Accident Detection in First-Person Videos
+# Traffic Accident Detection(adapted)
+
+## Introduction
+This is a work in progress.
+**It is based on the original work of _Yu Yao*, Mingze Xu*, Yuchen Wang, David Crandall and Ella Atkins_.**
+Which is available at (https://github.com/MoonBlvd/tad-IROS2019)
+
 ## Steps to reproduce
 
 ### Downloading datasets
