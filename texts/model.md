@@ -1,0 +1,28 @@
+# Unsupervised Traffic Accident Detection in First-Person Videos
+## Steps to reproduce
+
+### Downloading datasets
+Step 1 (Download the videos from YouTube):
+
+        python3 datasets/A3D_download.py --download_dir ./videos/ --url_file datasets/A3D_urls.txt
+**Note**: This urls list was cut down to just 10 videos, just for short test.
+
+### Pre processing
+Step 2 (Then convert the videos to images in 10Hz):
+
+        python3 scripts/video2frames.py -v ./videos/ -f 10 -o ./images/ -e jpg
+
+Step 3 ()
+
+
+Step 4 (Note that each downloaded video is a combination of several short clips, to split them into clips we used,
+run):
+
+ 
+### Train
+
+### Test
+
+### Validation
+
+## Results
