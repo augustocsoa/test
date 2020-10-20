@@ -2,6 +2,7 @@
 
 ## Introduction
 This is a work in progress.
+
 **It is based on the original work of Yu Yao, Mingze Xu, Yuchen Wang, David Crandall and Ella Atkins.**
 
 Which is available at https://github.com/MoonBlvd/tad-IROS2019
@@ -10,7 +11,6 @@ Which is available at https://github.com/MoonBlvd/tad-IROS2019
 
 ### Downloading datasets
 Step 1 (Download the videos from YouTube):
-
         python3 datasets/A3D_download.py --download_dir ./videos/ --url_file datasets/A3D_urls.txt
 **Note**: This urls list was cut down to just 10 videos, just for short test.
 
